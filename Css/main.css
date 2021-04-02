@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-top: 0.5rem;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    letter-spacing: 0.5px;
+}
+
+html{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* NavBar Section */
+
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+    height: 60px;
+    font-size: 1.0rem;
+}
+
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+/* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+}
+
+#home #ape {
+    max-width: 35%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name h2{
+    margin-top: 0.5rem;
+    margin-bottom: 0.2rem;
+}
+
+#home .name p{
+    opacity: 0.7;
+    font-style: italic;
+}
+
+/* Blank (About) Section */
+
+#blank{
+    text-align: center;
+    color: white;
+    padding: 0.5rem;
+}
+
+#blank .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#blank .items .item{
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#blank .items .item h3{
+    padding: 0.5rem;
+}
+
+/* Music Section */
+
+#music{
+    padding: 0.5rem;
+}
+
+#music .musics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.musics{
+    display: flex;
+    padding: 0.5rem;
+}
+
+.musics .music{
+    display: flex;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.musics .music .music-image {
+    position: relative;   
+} 
+
+.musics .music .music-image img{
+    height: 80px;
+    width: 80px;
+    border: 1px #062e51 solid;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+} 
+
+.musics .music .music-image span{
+    background: #062e51;
+    padding: 0.2rem;
+    color: white;
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    font-size: small;
+    border-radius: 4px;
+}
+
+.musics .music .music-info{
+    letter-spacing: 1px;
+}
+
+.musics .music .music-info .title{
+    margin-bottom: 0.25rem;
+}
+
+.musics .music .music-info .artist{
+    opacity: 0.8;
+    margin-bottom: 0.25rem;
+}
+
+.musics .music .music-info .year{
+    margin-bottom: 0.25rem;
+}
+
+.musics .music .music-info .genre{
+    opacity: 0.8;
+}
+
+/* Contact */
+
+#contact{
+    color: white;
+    padding: 1rem;
+}
+
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;  
+}
+
+#contact  .contact-form ul li a{
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+#contact  .contact-form ul li a:hover{
+    opacity: 0.6;
+}
